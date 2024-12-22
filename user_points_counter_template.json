@@ -1,0 +1,59 @@
+{"1 этаж": {
+    "Физкультура": {
+        "points": 0,
+        "status": "not_finished" 
+    },
+    "Алгоритмизация и программирование": {
+        "points": 0,
+        "status": "not_finished" 
+    }
+},
+"2 этаж": {
+    "Основы Российской Государственности": {
+        "points": 0,
+        "status": "not_finished" 
+    },
+    "История России": {
+        "points": 0,
+        "status": "not_finished" 
+    }
+},
+"3 этаж": {
+    "Деловые коммуникации": {
+        "points": 0,
+        "status": "not_finished" 
+    },
+    "Основы проектной деятельности": {
+        "points": 0,
+        "status": "not_finished" 
+    },
+    "Естественно-научная картина мира": {
+        "points": 0,
+        "status": "not_finished" 
+    }
+},
+"4 этаж": {
+    "Математический анализ": {
+        "points": 0,
+        "status": "not_finished" 
+    },
+    "Английский язык": {
+        "points": 0,
+        "status": "not_finished" 
+    },
+    "Противодействие распространению идеологии экстремизма и терроризма": {
+        "points": 0,
+        "status": "not_finished" 
+    }
+},
+"5 этаж": {
+    "Теоретические основы Информатики": {
+        "points": 0,
+        "status": "not_finished" 
+    },
+    "Информационные технологии": {
+        "points": 0,
+        "status": "not_finished" 
+    }
+}
+}
