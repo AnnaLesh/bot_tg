@@ -8,7 +8,7 @@ import os
 
 
 dotenv.load_dotenv()
-bot = Bot(token='8174847394:AAFr_E5o4gi24-g1LEIVQSGY62_hmNoHlks')
+bot = Bot(token='')
 disp = Dispatcher()
 users_points = {}
 
