@@ -8,7 +8,7 @@ import os
 
 
 dotenv.load_dotenv()
-bot = Bot(token='')
+bot = Bot(token='8174847394:AAFr_E5o4gi24-g1LEIVQSGY62_hmNoHlks')
 disp = Dispatcher()
 users_points = {}
 
@@ -75,9 +75,10 @@ async def next_question(callback: types.CallbackQuery,
         msg = question['question'] + '\n\nВарианты ответов:'
         for ans_variant in question['answer_variants']:
             msg += f'\n{question["answer_variants"].index(ans_variant) + 1}. {ans_variant}'
+        image_path = question["image"]
         section_num = list(users_points[callback.from_user.id][chosen_floor].keys()).index(chosen_section)
         await callback.message.edit_text(msg, reply_markup=kb.question_kb(question_num, chosen_floor, section_num))
-
+        await callback.message.answer_photo(photo=image_path)
 
 @disp.callback_query(F.data.startswith('ans'))
 async def read_answer(callback: types.CallbackQuery):
